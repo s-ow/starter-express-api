@@ -1,0 +1,21 @@
+@media screen and (min-width: 750px) {
+  .classnone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pseudo {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+
+  .pfp {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pseudo + .pfp {
+    margin-left: 10px;
+  }
+}

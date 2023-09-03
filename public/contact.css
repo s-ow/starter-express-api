@@ -1,0 +1,53 @@
+/* Style pour le contenu principal */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style pour la carte de contact */
+.contact-card {
+  background-color: #3b556d;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.7s ease-in-out;
+}
+
+.contact-card:hover {
+  box-shadow: #fff 1px 0 20px;
+  transition: 0.7s ease-in-out;
+}
+
+.contact-card h2 {
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  margin-bottom: 20px;
+}
+
+/* Style pour les icônes de réseaux sociaux */
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.7s ease-in-out;
+}
+
+.social-icons a:hover {
+  text-shadow: #5fc2ba 1px 0 50px;
+  transition: 0.7s ease-in-out;
+}
+
+/* Style pour l'en-tête et le footer (à ajuster selon vos besoins) */

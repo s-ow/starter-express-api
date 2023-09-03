@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b556d;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a7690;
+}
+
+::selection {
+  background-color: #3b556d00; /* Couleur de fond de la sélection */
+  color: #5fc0b6; /* Couleur du texte de la sélection */
+}

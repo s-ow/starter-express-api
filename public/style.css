@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&display=swap');
+
+
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0B162C;
+}
+
+.navbar {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #1C2942;
+  padding: 20px 0;
+  border-bottom: 5px solid #3B556D;
+  transition:
+    padding 0.4s ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+
+.sky {
+  margin-left: 50px;
+  margin-right: auto;
+  color: white;
+  text-shadow: #FFF 1px 0 30px;
+  transition: 0.4s ease-in-out;
+}
+
+.sky:hover {
+  color: #5FC2BA;
+  cursor: default;
+  letter-spacing: 4px;
+  text-shadow: #FFF 1px 0 70px;
+  transition: 0.4s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 50px;
+}
+
+li {
+  margin-right: 15px;
+}
+
+.il {
+  text-transform: uppercase;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.il:hover {
+  color: #5FC2BA;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.4s ease-in-out;
+}
+
+.il+a {
+  margin-left: 20px;
+}
+
+.il+.il {
+  margin-left: 20px;
+}
+
+.bio {
+  background-color: #3B556D;
+  text-align: left;
+  padding: 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 40px 60px 60px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.biodesc a {
+  color: #5fc2ba;
+  transition: ease-in-out 0.2s;
+}
+.biodesc a:hover {
+  color: #2a3e51;
+  transition: ease-in-out 0.2s;
+}
+
+.biocop {
+  display: block;
+  margin-top: 10px;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 0 0px;
+  align-items: center;
+}
+
+.biodesc {
+  text-align: left;
+}
+
+.toolh {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.imgdist {
+  transform: translate(0%, -15%);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.didis {
+  transform: translate(0%, -5%);
+}
+
+.disabled {
+  background-color: #0B162C;
+  height: 707.20px;
+}
+
+.disabled {
+  display: none;
+}
+
+.avai {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  text-align: center;
+}
+
+hr {
+  display: flex;
+  flex: 1;
+  border: none;
+  border-top: 4px solid #3B556D;
+  color: #fff;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 770px;
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.arrowToUp {
+  display: none;
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  transform: translate(-150%, -150%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: #0B162C;
+}
+
+.arrowToUp img {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar.active {
+  padding: 50px 0px;
+  transition:
+    padding 0.4s ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+
+.navbar.active .toolh {
+  margin-left: 100px;
+}
+
+.listnone {
+  display: none;
+  transition:
+    padding 0.4s ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+
+.listnone.active {
+  display: block;
+  text-align: center;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: repeat(4);
+  /* Deux lignes de hauteur automatique */
+}
+
+.card {
+  min-width: 250px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 14px;
+}
+
+.dicon {
+  color:#3b556d
+}
+
+#discord:hover {
+  color:#5FC2BA
+}
+
+/*
+  .spam {
+    margin-bottom: 1000px;
+  }

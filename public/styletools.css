@@ -1,0 +1,232 @@
+/* NAVBAR ============================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&display=swap");
+
+.pfp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profil {
+  display: flex;
+}
+
+.pseudo {
+  padding-top: 10px;
+}
+
+.pseudo + .pfp {
+  margin-left: 20px;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b162c;
+}
+
+.navbar {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #1c2942;
+  padding: 20px 0;
+  border-bottom: 5px solid #3b556d;
+  transition: padding 0.4s ease-in-out, transform 0.4s 0.4s ease-in-out;
+}
+
+.sky {
+  margin-left: 50px;
+  margin-right: auto;
+  color: white;
+  text-shadow: #fff 1px 0 30px;
+  transition: 0.4s ease-in-out;
+}
+
+.sky:hover {
+  color: #5fc2ba;
+  cursor: default;
+  letter-spacing: 4px;
+  text-shadow: #fff 1px 0 70px;
+  transition: 0.4s ease-in-out;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pr {
+  list-style-type: none;
+  display: flex;
+  margin-right: 50px;
+}
+
+/* MENU DE NAV A GAUCHE ============================================ */
+
+.menu {
+  display:block;
+  font-size: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  max-height: 80%; /* La hauteur maximale, ajustez selon vos besoins */
+  overflow-y: auto;
+}
+
+.over {
+  background-color: #1c2942;
+  padding: 10px;
+  padding-right: 1%;
+}
+
+.over:hover {
+  background-color: #3b556d;
+  transition: 0.3s ease-in-out;
+}
+
+.submenu {
+  display: none;
+  transition: 0.3s ease-in-out;
+  list-style: none;
+}
+
+.submenu-parent.active {
+  background-color: #2a3e51;
+  transition: 0.3s ease-in-out;
+}
+
+.submenu-parent.active .submenu {
+  display: block;
+  margin-top: 10px;
+  background-color: #3b556d6b;
+}
+
+.icone {
+  margin-left: 20px;
+}
+
+.submenu-parent {
+  transition: 0.3s ease-in-out;
+}
+
+.submenu-parent.active .icone {
+  transform: rotate(90deg);
+  transition: 0.3s ease-in-out;
+}
+.submenu-parent.active .iconee {
+  transform: rotate(90deg);
+  transition: 0.3s ease-in-out;
+}
+
+.submenu li {
+  padding: 8px;
+  border-radius: 5%;
+  background-color: #3b556d6b;
+  margin-bottom: 5px;
+  margin-left: -50px;
+}
+
+.submenu li a:hover {
+  color: #5fc2ba;
+}
+
+.titre {
+  padding: 10px;
+  color: grey;
+}
+
+/* FOOTER ============================================ */
+
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-bottom: 25px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 14px;
+}
+
+/* MAIN ============================================= */
+
+main {
+  margin-left: 200px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.texte {
+  background-color: #3b556d;
+  text-align: left;
+  padding: 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 40px 60px 60px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.td {
+  display: block;
+  margin-top: 10px;
+  padding: 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: large;
+}
+
+.desc a {
+  color: #5fc2ba;
+  transition: ease-in-out 0.2s;
+}
+.desc a:hover {
+  color: #2a3e51;
+  transition: ease-in-out 0.2s;
+}
+
+.dsc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 40vh;
+}
+
+/* BOUTONS ================================== */
+
+.iicon {
+  font-size:small;
+  background-color: white;
+  color:black;
+  padding:1vh;
+  border-radius: 25%;
+  align-items: center;
+  margin-right: 5px;
+}

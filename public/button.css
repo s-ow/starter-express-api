@@ -1,0 +1,36 @@
+.butcont {
+    width: 80%;
+}
+
+.closemenu {
+    background-color: #3b556d;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    border: none; 
+    transition: ease-in-out 0.7s;
+}
+
+.closemenu:hover {
+    box-shadow: #fff 1px 0 20px;
+    transition: ease-in-out 0.7s;
+}
+
+.closemenu:active {
+    border: thick double;
+    transition: ease-in-out 0.7s;
+}
+
+.closed {
+    display: none;
+}
+
+.closemenu.active .closed {
+    display: block;
+}
+
+.closemenu.active .opened {
+    display: none;
+}
