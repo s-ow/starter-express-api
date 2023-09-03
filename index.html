@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<!--meta générale-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <title>sky</title>
+    <meta name="title" content="sky">
+    <meta name="description" content="Site principal du serveur de développement de tools SKY.">
+    <meta name="theme-color" content="#3b556d">
+
+
+
+<!--favicon-->
+    <link rel="icon" href="favicon.png">
+
+<!--style-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.css">
+    <link rel="stylesheet" href="medias-queries.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-nav">
+        <div class="navbar">
+            <h2 class="sky">SKY</h2>
+            <ul class="listnone">
+                <span class="il" id="biobio"><a href="#bio">Biographie</a></span><br>
+                <span class="il" id="tootoo"><a href="#tools">Tools</a></span><br>
+                <span class="il" id="con"><a href="#contact">Contacts</a></span><br>
+                <a href="https://discord.gg/ug9U2qEPTd" class="didis" target="_blank"><span class="il">Discord</span></a>
+            </ul>
+            <button class="hamburger">
+                <div class="container-lignes">
+                    <div class="ligne"></div>
+                    <div class="ligne"></div>
+                    <div class="ligne"></div>
+                </div>
+            </button>
+            <ul>
+                <span class="il"><a href="#bio">Biographie</a></span>
+                <span class="il"><a href="#tools">Tools</a></span>
+                <span class="il"><a href="#contact">Contacts</a></span>
+                <a href="https://discord.gg/ug9U2qEPTd" class="didis dicon il" target="_blank"><span class="il"
+                        id="discord">Discord<i class="fa-solid fa-up-right-from-square dicon il"></i></a></span>
+            </ul>
+        </div>
+    </div>
+    <div class="page">
+        <div class="element1">
+        <div class="bio">
+            <h2 class="biod" id="bio">Biographie</h2><br><br>
+            <span class="biocop"><span class="gras">Qui sommes nous ?</span><br><br>
+                <span class="biodesc">Nous sommes des développeurs qui veulent toujours en apprendre plus sur
+                    l'informatique.<br>
+                    Nous avons commencé avec de simples bots discord et récemment, nous avons décidé de débuter dans la
+                    programmation d'applications afin d'agrandir nos compétences.</span><br>
+                <br>
+                <span class="gras">Pourquoi développer des outils ?</span><br><br>
+                <span class="biodesc">Ces outils sont pour nous une manière d'apprendre tout en créant. Il y a quelques temps, je ne savais même pas utiliser une machine virtuelle ! <br>
+                    Le développement de ces outils nous permet donc de gagner en compétences (pour le plaisir mais également pour nos études), tout en proposant des services à qui en a besoin.</span><br>
+                <br>
+                <span class="gras">Nos tools publics</span><br><br>
+                <span class="biodesc">Nous avons également un grand nombre de tools publics qui ne sont pas développés par nous mais que nous vous partageons gratuitement sur ce site, à la simple condition d'être sur notre serveur discord ! <br>
+                    Les tools publics sont accessibles <a href="/login">sur cette page</a>.</span><br>
+        </div>
+        </div>
+        <div class="element2">
+        <div class="container">
+            <h2 class="toolh" id="tools">Tools</h2>
+            <div class="card-container cards">
+                <div class="card">
+                    <div class="card-front">
+                        <div><img srcset="image.png" class="imgcar">
+                            <h2 class="toPag">SKY IP</h2>
+                            <p class="desc">Un outil qui vous permettra d'avoir tout un tas d'informations à partir
+                                d'une IP, d'un lien, ou grâce à un webhook.</p>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                            <h2 class="toPag">Fonctionnalités</h2>
+                            <p class="descbagues">✅ IP Scanner<br>✅ PC Scanner<br>✅ Website Scanner<br>✅ Fichier
+                                Grabber<br><br>⚙️ Wifi Scanner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="element3">
+                <div class="container">
+                    <h2 class="toolh">Bots</h2>
+                    <div class="card-container cards">
+                        <div class="card">
+                            <div class="card-front">
+                                <div><img srcset="dm.png" class="imgcar">
+                                    <h2 class="toPag">SKY DMALL</h2>
+                                    <p class="desc">Un script de bot en python qui vous permettra de dmall un serveur grâce au token d'un bot.</p>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                    <h2 class="toPag tback">Fonctionnalités</h2>
+                                    <p class="descbagues">✅ Dm All<br><br><br>
+                                        Même sans permissions, le bot peut dmall facilement et rapidement tout le serveur !</p>
+                            </div>
+                        </div>
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div><img srcset="raid.png" class="imgcar">
+                                            <h2 class="toPag">SKY RAID</h2>
+                                            <p class="desc">Un script de bot en python qui vous permettra de raid un serveur de toutes les manières grâce au token d'un bot.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-back"><img srcset="braid.png" class="braid">
+                                            <h2 class="toPag">Fonctionnalités</h2>
+                                            <p class="descbagues">✅ Créer/supprimer des salons <br>
+                                                ✅ Supprimer emojis & rôles <br>
+                                                ✅ Ban tous les membres <br>
+                                                ✅ Envoyer un message personnalisé dans tous les salons <br><br>
+                                                Le bot a besoin d'un minimum de permissions !</p>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="element4">
+                <div class="content">
+                    <div class="contact-card">
+                      <h2 id="contact">Nous Contacter</h2>
+                      <p>N'hésitez pas à nous contacter via les réseaux sociaux :</p>
+                      
+                      <ul class="social-icons">
+                        <li><a href="https://discord.gg/3hPPVSFrS3" target="_blank"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://github.com/ts-sky" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                      </ul>
+                      <br><h2>Faire des achats</h2>
+                      <p>Pour faire des achats, contactez nous en ticket sur le serveur discord.<br>Les paiement se font pour l'instant par PayPal uniquement !</p>
+                      
+                      <ul class="social-icons">
+                        <li><a href="https://discord.com/channels/1130980115535372449/1144612418429931550" target="_blank"><i class="fa-solid fa-cart-plus"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fab fa-paypal"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="arrowToUp"><img srcset="arrowUp.png"></button>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+              <p>© 2023 SKY. Tous droits réservés.</p>
+            </div>
+          </footer>
+        <script src="app.js"></script>
+</body>
+
+</html>
